@@ -1,3 +1,24 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+:root {
+	--primary: #4361ee;
+	--primary-light: #4895ef;
+	--secondary: #3f37c9;
+	--dark: #1b263b;
+	--light: #f8f9fa;
+	--danger: #f72585;
+	--success: #4cc9f0;
+	--border-radius: 8px;
+	--shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #f5f7fa;
+	color: var(--dark);
+	line-height: 1.6;
+}
